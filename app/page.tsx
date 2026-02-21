@@ -9,7 +9,7 @@ const SAMPLE_EVENTS = [
   { id: 3, title: "Tech Conference", date: "2026-04-05", location: "Mumbai" },
 ];
 
-ffunction formatDate(dateStr: string): string {
+function formatDate(dateStr: string): string {
   const d = new Date(dateStr + "T00:00:00");
   return d.toLocaleDateString("en-IN", { 
     day: "numeric", 
